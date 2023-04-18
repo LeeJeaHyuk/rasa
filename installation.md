@@ -1,3 +1,6 @@
+resa 튜토리얼
+https://rasa.com/docs/rasa/next/tutorial-intro/
+
 가상환경 실행
 venv/Scripts/activate 실행해야함
 source 경로/activate
@@ -24,3 +27,11 @@ ERROR: Can not perform a '--user' install. User site-packages are not visible in
 user=false
 의 설정을 해야 한다고 한다
 ----진행중----
+
+### resolve 3
+설치할 때 --user를 사용하지 않고 설치
+pip install --no-user rasa
+
+가상환경을 끄고
+또는 pip list --user 로 패키지를 확인한 다음 
+pip uninstall SomePackage --user 로 삭제하는 방법도 있다고 한다
