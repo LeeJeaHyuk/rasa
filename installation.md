@@ -37,6 +37,12 @@ pip install --no-user rasa
 또는 pip list --user 로 패키지를 확인한 다음 
 pip uninstall SomePackage --user 로 삭제하는 방법도 있다고 한다
 
-
+순서
 pip update
 1. python -m pip install --upgrade pip --no-user 
+2. pip install --no-user rasa
+3. curl -sSL https://install.python-poetry.org | python3 - --no-user 
+    git clone https://github.com/RasaHQ/rasa.git --no-user
+set PYTHONUSERBASE=
+curl -sSL https://install.python-poetry.org | python3 -
+git clone https://github.com/RasaHQ/rasa.git
