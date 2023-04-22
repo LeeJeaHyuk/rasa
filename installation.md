@@ -5,6 +5,7 @@ https://rasa.com/docs/rasa/next/tutorial-intro/
 venv/Scripts/activate 실행해야함
 source 경로/activate
 source activate
+// windows 에서는 그냥 activate
 가상환경 나가기
 deactivate 
 
@@ -35,3 +36,7 @@ pip install --no-user rasa
 가상환경을 끄고
 또는 pip list --user 로 패키지를 확인한 다음 
 pip uninstall SomePackage --user 로 삭제하는 방법도 있다고 한다
+
+
+pip update
+1. python -m pip install --upgrade pip --no-user 
